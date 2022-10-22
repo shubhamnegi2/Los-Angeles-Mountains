@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: latoBlackItalic;
+  src: url(../fonts/Lato-BlackItalic.ttf);
+}
+@font-face {
+  font-family: latoLite;
+  src: url(../fonts/Lato-Light.ttf);
+}
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+.HomeSection {
+  font-size: 1.6rem;
+  background-image: url(../Images/homeImg.jpeg);
+  min-width: 100vw;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.HomeSection header {
+  z-index: 9999;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+}
+.HomeSection header .logoLink {
+  width: 100%;
+}
+.HomeSection header .logoLink .logo1 img {
+  width: 3rem;
+}
+.HomeSection .logo2 {
+  display: none;
+}
+.HomeSection nav ol li a {
+  font-family: latoBlackItalic;
+  color: #fff;
+  font-size: 1.6rem;
+  text-decoration: none;
+  padding-bottom: 0.1rem;
+  border-bottom: 0.18rem solid #fff;
+}
+
+#historySectionWrapper {
+  font-size: 1.6rem;
+  background-image: url(../Images/history.jpeg.png);
+  min-width: 100vw;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#historySectionWrapper .number {
+  position: relative;
+  font-size: 13.5rem;
+  font-weight: 900;
+  display: inline-block;
+  font-family: "Oswald", sans-serif;
+  color: #6b7b97;
+}
+#historySectionWrapper .number h1 {
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: absolute;
+  right: -9rem;
+  bottom: 6rem;
+  font-size: 3.2rem;
+  color: #414f6b;
+}
+#historySectionWrapper .content {
+  padding-left: 10rem;
+  padding-right: 10rem;
+  margin-top: -3rem;
+}
+#historySectionWrapper .content p {
+  font-family: latoLite;
+  color: #414f6b;
+  font-weight: 500;
+}
+
+.bottomCarosal {
+  margin-top: 30rem;
+  box-sizing: border-box;
+  background-color: #3a465c;
+}
+.bottomCarosal .owl-carousel {
+  width: 100%;
+  padding-top: 2.5rem;
+  padding-bottom: 0.5rem;
+}
+.bottomCarosal .owl-carousel .item {
+  width: 100%;
+}
+.bottomCarosal .owl-carousel .item img {
+  width: 100%;
+}
+.bottomCarosal .owl-theme .owl-nav.disabled + .owl-dots {
+  margin-top: 0.5rem;
+}
+
+#team {
+  font-size: 1.6rem;
+  background-image: url(../Images/team.png);
+  min-width: 100vw;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#team .history2 {
+  background-color: #fff;
+}
+#team .history2 .number {
+  position: relative;
+  font-size: 13.5rem;
+  font-weight: 900;
+  display: inline-block;
+  font-family: "Oswald", sans-serif;
+  color: #6b7b97;
+  line-height: 16rem;
+}
+#team .history2 .number h1 {
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: absolute;
+  right: -6rem;
+  bottom: 4rem;
+  font-size: 3.2rem;
+  color: #414f6b;
+}
+#team .history2 .content p {
+  padding-left: 10rem;
+  font-family: latoLite;
+  color: #414f6b;
+  font-weight: 500;
+}
+#team .mountainsNav {
+  background-color: #414f6b;
+}
+#team .mountainsNav ul li {
+  display: inline-block;
+  padding: 0.5rem 2rem;
+}
+#team .mountainsNav ul li:first-child {
+  background-color: #b0b4be;
+}
+#team .mountainsNav ul li:first-child span:first-child {
+  color: #485671;
+}
+#team .mountainsNav ul li span {
+  font-size: 2rem;
+  cursor: pointer;
+  color: #b0b4be;
+  position: relative;
+  font-family: "Oswald", sans-serif;
+}
+#team .mountainsNav ul li span::after {
+  position: absolute;
+  left: 0%;
+  bottom: -0.1rem;
+  width: 100%;
+  height: 0.1rem;
+  background-color: #485671;
+  content: "";
+}
+#team .schedule {
+  background-color: rgba(246, 248, 250, 0.8);
+  display: inline-block;
+  padding: 1rem 4rem;
+  margin-left: 3rem;
+  margin-top: 10rem;
+}
+#team .schedule h2 {
+  font-size: 3.2rem;
+  font-family: "Oswald", sans-serif;
+  color: #414f6b;
+  font-weight: bold;
+}
+#team .schedule table tr td {
+  padding-bottom: 1rem;
+}
+#team .schedule table tr td:first-child {
+  padding-right: 5rem;
+}
+
+footer {
+  background-color: #414f6b;
+  color: #63769d;
+}
+footer .space {
+  width: 1rem;
+}
+footer .logoLink {
+  position: relative;
+}
+footer .logoLink:after {
+  position: absolute;
+  left: 0%;
+  bottom: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(72, 86, 113, 0.5);
+  content: "";
+}
+footer p {
+  margin-bottom: 0px;
+  text-align: right;
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 768px) {
+  #historySectionWrapper .content {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+  .secondNumber {
+    display: block !important;
+  }
+}/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
+
+@font-face {
+    font-family: latoLite;
+    src: url(../fonts/Lato-Light.ttf);
+}
+@font-face {
+    font-family: latoBlackItalic;
+    src: url(../fonts/Lato-BlackItalic.ttf);
+}
+.historyPageWrapper {
+    font-size: 1.6rem;
+    background-image: url(../Images/history.jpeg.png);
+    min-width: 100vw;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    header {
+        background-color: #fff;
+        .logoLink {
+            width: 100%;
+            img {
+                width: 100%;
+            }
+        }
+    }
+    nav {
+        ol {
+            li {
+                a {
+                    font-family: latoBlackItalic;
+                    color: #414f6b;
+                    font-size: 1.6rem;
+                    text-decoration: none;
+                    padding-bottom: 0.1rem;
+                    border-bottom: 0.18rem solid #414f6b;
+                }
+            }
+        }
+    }
+}
+main {
+    .number {
+        position: relative;
+        font-size: 18rem;
+        font-weight: 900;
+        display: inline-block;
+        font-family: "Oswald", sans-serif;
+        color: #6b7b97;
+        h1 {
+            font-family: "Oswald", sans-serif;
+            font-weight: bold;
+            text-transform: uppercase;
+            position: absolute;
+            right: -11rem;
+            bottom: 8rem;
+            font-size: 4.2rem;
+            color: #414f6b;
+        }
+    }
+    .content {
+        // border: 1px solid #000;
+        padding-left: 10rem;
+        padding-right: 10rem;
+        margin-top: -5rem;
+        p {
+            font-family: latoLite;
+            color: #414f6b;
+            font-weight: 500;
+        }
+    }
+}
+.bottomCarosal {
+   margin-top: 30rem;
+    box-sizing: border-box;
+    background-color: #3a465c;
+    .owl-carousel {
+        width: 100%;
+        padding-top: 2.5rem;
+        padding-bottom: .5rem;
+        .item {
+            width: 100%;
+            img {
+                width: 100%;
+            }
+        }
+    }
+    .owl-theme .owl-nav.disabled + .owl-dots {
+        margin-top: .5rem;
+    }
+    
+}

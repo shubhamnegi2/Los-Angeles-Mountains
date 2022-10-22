@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+html{
+    font-size: 62.5%;
+}
+main{
+    font-size: 1.6rem;
+    background-image: url(../Images/homeImg.jpeg);
+    width: 100vw;   
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    header{
+        .logoLink{
+            width: 100%;
+            img{
+                width: 100%;
+            }
+        }
+    }
+    nav{
+        ol{
+            li{
+                a{
+                    color: #fff;
+                    text-decoration: none;
+                    padding-bottom: 0.1rem;
+                    border-bottom: .2rem solid #fff;
+                }
+            }
+        }
+    }
+}
